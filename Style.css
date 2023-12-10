@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    width: 960px;
+    height: 960px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.square{
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
+
+.white{
+    background-color: #e5a970;
+}
+
+.black{
+    background-color: #382310;
+}
